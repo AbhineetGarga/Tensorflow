@@ -1,0 +1,39 @@
+﻿# --- Python caches ---
+__pycache__/
+*.py[cod]
+
+# --- Virtual envs ---
+tf-env/
+tf.env/
+venv/
+.venv/
+env/
+.env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Native/binary blobs (often huge with TF) ---
+*.pyd
+*.dll
+*.so
+*.dylib
+
+# --- Models / large artifacts (track with Git LFS if needed) ---
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.onnx
+
+# --- Build artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
